@@ -50,7 +50,7 @@ numproj_list = 100;  % Values used in paper: 100, 600, 2000.
 projidx1 = 1100; 
 
 % Number of CGLS iterations to run.
-iterations = 1;
+iterations = 10;
 
 % Whether to save results.
 do_save = false;
@@ -111,7 +111,7 @@ for ll = 1:length(do_horz_cor_list)
                     else
                         [data, proj_geom, vol_geom] = geom3astra_vec(...
                             data, geom, center_offset, tilt_angle, ...
-                            do_horz_cor+dev_avg3(projidx));
+                            do_horz_cor+offsets(projidx));
                     end
                     
                     % Get ready for CGLS: Set up opTomo operator and
