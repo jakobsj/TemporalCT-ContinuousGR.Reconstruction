@@ -44,11 +44,11 @@ numproj_list = 100;  % Values used in paper: 100, 600, 2000.
 % For 2000 projections: 1000:100:3300.
 projidx1 = 1100; 
 
-% Number of CGLS iterations to run.
-iterations = 10;
+% Number of CGLS iterations to run. In the paper 50 iterations was used.
+iterations = 50;
 
 % Whether to save results.
-do_save = false;
+do_save = true;
 
 % Center-of-rotation correction, i.e., horizontal offset. List of values
 % possible and will be looped over. Value used in paper: -4.6.

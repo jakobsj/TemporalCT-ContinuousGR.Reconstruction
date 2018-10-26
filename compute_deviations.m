@@ -1,4 +1,5 @@
 function [deviations_unsorted] = compute_deviations(sino,sort_idx,det_idx,doplot)
+% Estimate individual offsets.
 
 % Sort sinogram.
 sino_sorted = sino(:,sort_idx);

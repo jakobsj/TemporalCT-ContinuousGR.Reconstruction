@@ -1,5 +1,6 @@
 function [data, proj_geom_vec, vol_geom] = geom3astra_vec(data, geom, ...
     center_offset, tilt_angle,horz_cor)
+% Extract geometry information and convert to ASTRA format.
 
 if nargin < 5 || isempty(horz_cor)
     horz_cor = zeros(size(geom.angles));
