@@ -39,6 +39,8 @@ three main steps to run, contained in separate scripts all starting with
 3. run_show_reconstruction.m
    This will load saved reconstructions and display ortho slices.
 
+The rest of the files are utility functions or third-party code.
+
 The code have the following dependencies:
 
 + Assumes that the ASTRA Tomography Toolbox 1.8 is installed and on 
