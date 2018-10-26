@@ -1,12 +1,3 @@
-% DEPENDENCIES:
-%
-% + Assumes that ASTRA Toolbox 1.8 is installed and on MATLAB path.
-%
-% + Uses modified version of tools provided by the SophiaBeads dataset
-%   project codes that are available from
-%   https://sophilyplum.github.io/sophiabeads-datasets/
-%   The modified version is included with the present code.
-
 
 %% Set paths to data and output.
 
