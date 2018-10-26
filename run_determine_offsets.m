@@ -1,4 +1,9 @@
 
+% This script estimates individual horizontal offsets to apply to each 
+% projection to compensate for misalignment during the scan. This step 
+% produces the mat-file offsets.mat to be loaded in the next step. The
+% file offsets.mat has also been included with the code, so this first
+% step can be skipped, but code is provided for completeness.
 
 %% Paths to set.
 

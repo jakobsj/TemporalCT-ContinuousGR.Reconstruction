@@ -1,3 +1,7 @@
+
+% This script will load saved reconstructions and display ortho slices.
+
+
 %% Set path to reconstruction data
 
 savefilepath = ...
