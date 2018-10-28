@@ -3,9 +3,12 @@
 % and saved to disk.
 
 
-%% Set paths to data and output.
+%% Set paths to data directory and output.
 
 data_pathname = '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/Data/IPCHacking/CrystalGrowth/crystal2018-01-11/goldenangleTestFast_real_2018-01-11 12-28-38-PM/';
+
+
+
 data_filename = 'goldenangleTestFast_real';
 
 shading_pathname = '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/Data/IPCHacking/CrystalGrowth/crystal2018-01-11/ShadingCorrection_120kV67uA_2018-01-11 12-23-04-PM/';
