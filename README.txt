@@ -21,6 +21,20 @@ The code has been developed and tested in MATLAB R2017a on Ubuntu 16.04
 by Jakob S. Jorgensen, University of Manchester, UK.
 Contact: jakob.jorgensen@manchester.ac.uk
 
+To set up in order to run the code, the following steps should be carried
+out, including download of the data:
+
+1. From https://zenodo.org/record/1204088 download the data set
+   GoldenRatioDataset.zip an unzip to obtain a directory called 
+   GoldenRatioDataset. This is the datapath referred to in the code, to 
+   which the "datapath" variable should be set.
+
+2. From the Github repository holding this code either clone or download 
+   zip file to the GoldenRatioDataset directory and unzip to obtain a 
+   directory with the code.
+
+3. 
+
 The code will run CGLS reconstruction as described in the paper. There are 
 three main steps to run, contained in separate scripts all starting with 
 "run_":
