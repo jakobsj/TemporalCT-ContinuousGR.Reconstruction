@@ -34,8 +34,10 @@ addpath(genpath('sophiabeads_modified/'))
 
 
 % Specify which GPUs to use with ASTRA in case non-default setup is
-% desired. For the results in the paper we used GPUs 0 and 1. For default
-% behaviour, simply comment this line out.
+% desired. The results in the paper were generated on a workstation with
+% two GPUs (indexed 0 and 1). To use GPUs 0 and 1 (if available), 
+% uncomment the code line below; to use the GPU selected by default simply
+% leave as comment.
 astra_mex('set_gpu_index', [0 1]);
 
 %% Set parameters.

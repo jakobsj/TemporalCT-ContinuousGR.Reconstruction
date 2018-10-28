@@ -81,3 +81,7 @@ The code have the following dependencies:
    https://uk.mathworks.com/matlabcentral/fileexchange/13812-splinefit
    and has been included with the present code for convenience.
 
+Other requirements:
+
+The code makes heavy use of GPU acceleration through the ASTRA Tomography 
+Toolbox and it is essential that (at least) one NVIDIA GPU is available.
