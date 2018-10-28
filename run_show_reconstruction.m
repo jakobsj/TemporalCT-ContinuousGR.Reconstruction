@@ -4,9 +4,9 @@
 
 %% Set path to directory where reconstructions have been saved.
 
-savefilepath = ...
-    '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/OutputData/IPC/crystal/crystal2018-01-11/production/';
-
+%savefilepath = ...
+%    '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/OutputData/IPC/crystal/crystal2018-01-11/production/';
+savefilepath = 'output';
 
 %% Parameters to set.
 

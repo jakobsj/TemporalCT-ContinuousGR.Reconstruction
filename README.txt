@@ -26,8 +26,7 @@ out, including download of the data:
 
 1. From https://zenodo.org/record/1204088 download the data set
    GoldenRatioDataset.zip an unzip to obtain a directory called 
-   GoldenRatioDataset. This is the datapath referred to in the code, to 
-   which the "datapath" variable should be set.
+   GoldenRatioDataset. This is the datapath referred to in the code.
 
 2. From the Github repository holding this code either clone or download 
    zip file to the GoldenRatioDataset directory and unzip to obtain a 
