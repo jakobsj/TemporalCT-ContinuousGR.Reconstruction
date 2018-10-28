@@ -38,12 +38,12 @@ addpath(genpath('sophiabeads_modified/'))
 % two GPUs (indexed 0 and 1). To use GPUs 0 and 1 (if available), 
 % uncomment the code line below; to use the GPU selected by default simply
 % leave as comment.
-astra_mex('set_gpu_index', [0 1]);
+%astra_mex('set_gpu_index', [0 1]);
 
 %% Set parameters.
 
 % Number of projections to use in a reconstruction.
-numproj_list = 100;  % Values used in paper: 100, 600, 2000.
+numproj_list = 20;  % Values used in paper: 100, 600, 2000.
 
 % Index of central projection to use, thus specifying the time of the
 % reconstruction. For example if 2000 projections are used and the central
@@ -55,7 +55,7 @@ numproj_list = 100;  % Values used in paper: 100, 600, 2000.
 projidx1 = 1100; 
 
 % Number of CGLS iterations to run. In the paper 50 iterations was used.
-iterations = 50;
+iterations = 2;
 
 % Whether to save results.
 do_save = true;
