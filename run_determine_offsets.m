@@ -37,7 +37,7 @@ sino = zeros(imsize,numprojs);
 
 % Loop over angles, read image and store central row as column of sino.
 for k = 1:numprojs
-    fprintf('Reading projection %d of %d... ',k,numproj)
+    fprintf('Reading projection %d of %d... ',k,numprojs)
     im = imread(fullfile(pathname,sprintf(filestr,k)));
     sino(:,k) = im(rowidx,:);
     fprintf('DONE.\n')
