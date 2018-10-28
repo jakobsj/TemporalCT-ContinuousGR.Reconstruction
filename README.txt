@@ -25,7 +25,7 @@ To set up in order to run the code, the following steps should be carried
 out, including download of the data:
 
 1. From https://zenodo.org/record/1204088 download the data set
-   GoldenRatioDataset.zip an unzip to obtain a directory called 
+   GoldenRatioDataset.zip and unzip to obtain a directory called 
    GoldenRatioDataset. This is the datapath referred to in the code.
 
 2. From the Github repository holding this code either clone or download 
@@ -33,15 +33,15 @@ out, including download of the data:
    directory with the code. This directory will be called something like
    TemporalCT-ContinuousGR.Reconstruction; its name is not that important, 
    but it is important that it is placed as a subdirectory in the 
-   GoldenRatioDataset, in order to for the pre-specified paths to data 
-   etc. be correct.
+   GoldenRatioDataset directory, in order to for the pre-specified paths 
+   to data etc. be correct.
 
-3. Make sure that the dependencies specified below are satisfied (in 
+3. Make sure that the dependencies specified below are satisfied. In 
    practice only the first dependency (the ASTRA Tomography Toolbox) is 
    important for the user to set up, since the other ones are included 
    with the present code.
 
-Once setup, the code will run CGLS reconstruction as described in the 
+Once set up, the code will run CGLS reconstruction as described in the 
 paper. There are three main steps to run, contained in separate scripts 
 all starting with "run_":
 
@@ -61,7 +61,7 @@ all starting with "run_":
 
 The rest of the files are utility functions or third-party code.
 
-The code have the following dependencies:
+The code has the following dependencies:
 
 1. Assumes that the ASTRA Tomography Toolbox 1.8 is installed and on 
    MATLAB path. Please see: http://www.astra-toolbox.com/
