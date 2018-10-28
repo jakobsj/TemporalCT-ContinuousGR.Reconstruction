@@ -5,14 +5,17 @@
 % file offsets.mat has also been included with the code, so this first
 % step can be skipped, but code is provided for completeness.
 
+
 %% Paths to set.
 
 % Add utility splinefit to path
 addpath splinefit
 
 % Path to data directory.
-%pathname = '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/Data/IPCHacking/CrystalGrowth/crystal2018-01-11/goldenangleTestFast_real_2018-01-11 12-28-38-PM';
-pathname = fullfile('..','RawUncorrectedData','goldenangleTestFast_real_2018-01-11 12-28-38-PM');
+pathname = fullfile(...
+    '..',...
+    'RawUncorrectedData',...
+    'goldenangleTestFast_real_2018-01-11 12-28-38-PM');
 
 %% Filenames and parameters.
 

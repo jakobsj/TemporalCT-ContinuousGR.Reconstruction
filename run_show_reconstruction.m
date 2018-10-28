@@ -4,18 +4,17 @@
 
 %% Set path to directory where reconstructions have been saved.
 
-%savefilepath = ...
-%    '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/OutputData/IPC/crystal/crystal2018-01-11/production/';
 savefilepath = 'output';
 
 %% Parameters to set.
 
-% Which time instance ie which projection was central.
-projidx1 = [1000,3000];
+% Which time instance ie which projection was central. A list (vector) can
+% be specified to be looped over.
+projidx1 = [1100];
 
-% How many projections used for reconstruction.
+% How many projections used for reconstruction. A list (vector) can be
+% specified to be looped over.
 numproj = [100,600,2000];
-
 
 %% Fixed parameters.
 
@@ -24,7 +23,6 @@ size_X = [1720,1720,1500];
 
 % Color range for display
 ca = [0,2e-3];
-
 
 %% Load and display
 % Loop over time instances and number of projections and load and display

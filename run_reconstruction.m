@@ -5,20 +5,23 @@
 
 %% Set paths to data directory and output.
 
-%data_pathname = '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/Data/IPCHacking/CrystalGrowth/crystal2018-01-11/goldenangleTestFast_real_2018-01-11 12-28-38-PM/';
-data_pathname = fullfile('..','RawUncorrectedData','goldenangleTestFast_real_2018-01-11 12-28-38-PM');
+data_pathname = fullfile(...
+    '..',...
+    'RawUncorrectedData',...
+    'goldenangleTestFast_real_2018-01-11 12-28-38-PM');
 
 data_filename = 'goldenangleTestFast_real';
 
-%shading_pathname = '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/Data/IPCHacking/CrystalGrowth/crystal2018-01-11/ShadingCorrection_120kV67uA_2018-01-11 12-23-04-PM/';
-shading_pathname = fullfile('..','ShadingCorrectionFiles','ShadingCorrection_120kV67uA_2018-01-11 12-23-04-PM');
+shading_pathname = fullfile(...
+    '..',...
+    'ShadingCorrectionFiles',...
+    'ShadingCorrection_120kV67uA_2018-01-11 12-23-04-PM');
 
 flat_filename = 'Flat_120kV67uA.tif';
 dark_filename = 'Dark_120kV67uA.tif';
 
 horz_cor_file = 'offsets.mat';
 
-%output_path = '/media/jakob/050d8d45-fab3-4285-935f-260e6c5f162c1/OutputData/IPC/crystal/crystal2018-01-11/githubtest/';
 output_path = 'output';
 
 %% Include third party code and specify which GPUs to use with ASTRA
