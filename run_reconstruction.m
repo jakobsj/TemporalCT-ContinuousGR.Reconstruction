@@ -43,7 +43,7 @@ addpath(genpath('sophiabeads_modified/'))
 %% Set parameters.
 
 % Number of projections to use in a reconstruction.
-numproj_list = 20;  % Values used in paper: 100, 600, 2000.
+numproj_list = 100;  % Values used in paper: 100, 600, 2000.
 
 % Index of central projection to use, thus specifying the time of the
 % reconstruction. For example if 2000 projections are used and the central
@@ -52,10 +52,10 @@ numproj_list = 20;  % Values used in paper: 100, 600, 2000.
 % For  100 projections:  100:100:4200.
 % For  600 projections:  300:100:4000.
 % For 2000 projections: 1000:100:3300.
-projidx1 = 1100; 
+projidx1 = 1000; 
 
 % Number of CGLS iterations to run. In the paper 50 iterations was used.
-iterations = 2;
+iterations = 50;
 
 % Whether to save results.
 do_save = true;

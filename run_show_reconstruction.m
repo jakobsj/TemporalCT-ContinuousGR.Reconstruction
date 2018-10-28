@@ -1,5 +1,5 @@
 
-% This script will load saved reconstructions and display ortho slices.
+% This script will load saved reconstruction(s) and display ortho slices.
 
 
 %% Set path to directory where reconstructions have been saved.
@@ -8,13 +8,13 @@ savefilepath = 'output';
 
 %% Parameters to set.
 
-% Which time instance ie which projection was central. A list (vector) can
-% be specified to be looped over.
-projidx1 = [1100];
-
 % How many projections used for reconstruction. A list (vector) can be
 % specified to be looped over.
-numproj = [100,600,2000];
+numproj = [100];
+
+% Which time instance ie which projection was central. A list (vector) can
+% be specified to be looped over.
+projidx1 = [1000];
 
 %% Fixed parameters.
 
